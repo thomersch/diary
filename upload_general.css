@@ -1,0 +1,43 @@
+* {
+	margin:0;
+	padding:0;
+} 
+
+body {
+	width:100%;
+	font-family:Helvetica,Arial,sans-serif;
+}
+
+input {
+	font-size:150%;
+	width:100%;
+}
+
+h1 {
+	padding: 1% 0 5px 0;
+	border-bottom: 10px solid #176273;
+	color:#E5D9CF;
+	background-color:#063540;
+	font-size:200%;
+	text-align: center;
+	margin-bottom:1em;
+}
+
+p {
+	margin:0 0.5em 1em 0.5em;
+	margin-bottom: 1em;
+}
+
+textarea {
+	width:100%;
+	font-size:150%;
+}
+
+@media only screen and (min-device-width: 800px) {
+	body {
+		width:600px;
+		margin-left:-300px;
+		position: absolute;
+		left:50%;
+	}
+} 
